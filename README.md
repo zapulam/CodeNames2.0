@@ -4,6 +4,12 @@ This repo contains R code to run an R Shiny dashboard in order to play the game 
 
 *Codenames is a 2015 party card game designed by Vlaada Chvátil and published by Czech Games Edition. Two teams compete by each having a "spymaster" give one-word clues that can point to multiple words on the board. The other players on the team attempt to guess their team's words while avoiding the words of the other team.*
 
+## Example Session
+
+![Example Image](imgs/gameboard.png)
+
+![Example Image](imgs/masterboard.png)
+
 ## Setup
 
 1. Install R and R Studio
