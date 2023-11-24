@@ -150,9 +150,9 @@ function(input, output, session) {
     # Update counters
     if (colors[assignments[1]] == '#1E90FF') {blue<<-blue + 1} else if (colors[assignments[1]] == '#B22222') {red<<-red + 1} else if (colors[assignments[1]] == '#333333') {black<<-1}
     # Check if blue has won
-    if (blue == 9) {shinyalert("Congratulations!", "the blue team has won the game", type = "info")}
+    if (blue == 9) {shinyalert("Congratulations!", "The blue team has won the game", type = "info")}
     # Check if red has won
-    if (red == 8) {shinyalert("Congratulations!", "the red team has won the game", type = "info")}
+    if (red == 8) {shinyalert("Congratulations!", "The red team has won the game", type = "info")}
     # Check if black is clicked
     if (black == 1) {shinyalert("Oh no!", "You've chosen the assassin word!", type = "info")}
     js = paste0('document.getElementById(\"action1\").style.backgroundColor = \"', colors[assignments[1]],'\";')
@@ -162,9 +162,9 @@ function(input, output, session) {
     # Update counters
     if (colors[assignments[2]] == '#1E90FF') {blue<<-blue + 1} else if (colors[assignments[2]] == '#B22222') {red<<-red + 1} else if (colors[assignments[2]] == '#333333') {black<<-1}
     # Check if blue has won
-    if (blue == 9) {shinyalert("Congratulations!", "the blue team has won the game", type = "info")}
+    if (blue == 9) {shinyalert("Congratulations!", "The blue team has won the game", type = "info")}
     # Check if red has won
-    if (red == 8) {shinyalert("Congratulations!", "the red team has won the game", type = "info")}
+    if (red == 8) {shinyalert("Congratulations!", "The red team has won the game", type = "info")}
     # Check if black is clicked
     if (black == 1) {shinyalert("Oh no!", "You've chosen the assassin word!", type = "info")}
     js = paste0('document.getElementById(\"action2\").style.backgroundColor = \"', colors[assignments[2]],'\";')
@@ -174,9 +174,9 @@ function(input, output, session) {
     # Update counters
     if (colors[assignments[3]] == '#1E90FF') {blue<<-blue + 1} else if (colors[assignments[3]] == '#B22222') {red<<-red + 1} else if (colors[assignments[3]] == '#333333') {black<<-1}
     # Check if blue has won
-    if (blue == 9) {shinyalert("Congratulations!", "the blue team has won the game", type = "info")}
+    if (blue == 9) {shinyalert("Congratulations!", "The blue team has won the game", type = "info")}
     # Check if red has won
-    if (red == 8) {shinyalert("Congratulations!", "the red team has won the game", type = "info")}
+    if (red == 8) {shinyalert("Congratulations!", "The red team has won the game", type = "info")}
     # Check if black is clicked
     if (black == 1) {shinyalert("Oh no!", "You've chosen the assassin word!", type = "info")}
     js = paste0('document.getElementById(\"action3\").style.backgroundColor = \"', colors[assignments[3]],'\";')
@@ -186,9 +186,9 @@ function(input, output, session) {
     # Update counters
     if (colors[assignments[4]] == '#1E90FF') {blue<<-blue + 1} else if (colors[assignments[4]] == '#B22222') {red<<-red + 1} else if (colors[assignments[4]] == '#333333') {black<<-1}
     # Check if blue has won
-    if (blue == 9) {shinyalert("Congratulations!", "the blue team has won the game", type = "info")}
+    if (blue == 9) {shinyalert("Congratulations!", "The blue team has won the game", type = "info")}
     # Check if red has won
-    if (red == 8) {shinyalert("Congratulations!", "the red team has won the game", type = "info")}
+    if (red == 8) {shinyalert("Congratulations!", "The red team has won the game", type = "info")}
     # Check if black is clicked
     if (black == 1) {shinyalert("Oh no!", "You've chosen the assassin word!", type = "info")}
     js = paste0('document.getElementById(\"action4\").style.backgroundColor = \"', colors[assignments[4]],'\";')
@@ -198,9 +198,9 @@ function(input, output, session) {
     # Update counters
     if (colors[assignments[5]] == '#1E90FF') {blue<<-blue + 1} else if (colors[assignments[5]] == '#B22222') {red<<-red + 1} else if (colors[assignments[5]] == '#333333') {black<<-1}
     # Check if blue has won
-    if (blue == 9) {shinyalert("Congratulations!", "the blue team has won the game", type = "info")}
+    if (blue == 9) {shinyalert("Congratulations!", "The blue team has won the game", type = "info")}
     # Check if red has won
-    if (red == 8) {shinyalert("Congratulations!", "the red team has won the game", type = "info")}
+    if (red == 8) {shinyalert("Congratulations!", "The red team has won the game", type = "info")}
     # Check if black is clicked
     if (black == 1) {shinyalert("Oh no!", "You've chosen the assassin word!", type = "info")}
     js = paste0('document.getElementById(\"action5\").style.backgroundColor = \"', colors[assignments[5]],'\";')
@@ -210,9 +210,9 @@ function(input, output, session) {
     # Update counters
     if (colors[assignments[6]] == '#1E90FF') {blue<<-blue + 1} else if (colors[assignments[6]] == '#B22222') {red<<-red + 1} else if (colors[assignments[6]] == '#333333') {black<<-1}
     # Check if blue has won
-    if (blue == 9) {shinyalert("Congratulations!", "the blue team has won the game", type = "info")}
+    if (blue == 9) {shinyalert("Congratulations!", "The blue team has won the game", type = "info")}
     # Check if red has won
-    if (red == 8) {shinyalert("Congratulations!", "the red team has won the game", type = "info")}
+    if (red == 8) {shinyalert("Congratulations!", "The red team has won the game", type = "info")}
     # Check if black is clicked
     if (black == 1) {shinyalert("Oh no!", "You've chosen the assassin word!", type = "info")}
     js = paste0('document.getElementById(\"action6\").style.backgroundColor = \"', colors[assignments[6]],'\";')
@@ -222,9 +222,9 @@ function(input, output, session) {
     # Update counters
     if (colors[assignments[7]] == '#1E90FF') {blue<<-blue + 1} else if (colors[assignments[7]] == '#B22222') {red<<-red + 1} else if (colors[assignments[7]] == '#333333') {black<<-1}
     # Check if blue has won
-    if (blue == 9) {shinyalert("Congratulations!", "the blue team has won the game", type = "info")}
+    if (blue == 9) {shinyalert("Congratulations!", "The blue team has won the game", type = "info")}
     # Check if red has won
-    if (red == 8) {shinyalert("Congratulations!", "the red team has won the game", type = "info")}
+    if (red == 8) {shinyalert("Congratulations!", "The red team has won the game", type = "info")}
     # Check if black is clicked
     if (black == 1) {shinyalert("Oh no!", "You've chosen the assassin word!", type = "info")}
     js = paste0('document.getElementById(\"action7\").style.backgroundColor = \"', colors[assignments[7]],'\";')
@@ -234,9 +234,9 @@ function(input, output, session) {
     # Update counters
     if (colors[assignments[8]] == '#1E90FF') {blue<<-blue + 1} else if (colors[assignments[8]] == '#B22222') {red<<-red + 1} else if (colors[assignments[8]] == '#333333') {black<<-1}
     # Check if blue has won
-    if (blue == 9) {shinyalert("Congratulations!", "the blue team has won the game", type = "info")}
+    if (blue == 9) {shinyalert("Congratulations!", "The blue team has won the game", type = "info")}
     # Check if red has won
-    if (red == 8) {shinyalert("Congratulations!", "the red team has won the game", type = "info")}
+    if (red == 8) {shinyalert("Congratulations!", "The red team has won the game", type = "info")}
     # Check if black is clicked
     if (black == 1) {shinyalert("Oh no!", "You've chosen the assassin word!", type = "info")}
     js = paste0('document.getElementById(\"action8\").style.backgroundColor = \"', colors[assignments[8]],'\";')
@@ -246,9 +246,9 @@ function(input, output, session) {
     # Update counters
     if (colors[assignments[9]] == '#1E90FF') {blue<<-blue + 1} else if (colors[assignments[9]] == '#B22222') {red<<-red + 1} else if (colors[assignments[9]] == '#333333') {black<<-1}
     # Check if blue has won
-    if (blue == 9) {shinyalert("Congratulations!", "the blue team has won the game", type = "info")}
+    if (blue == 9) {shinyalert("Congratulations!", "The blue team has won the game", type = "info")}
     # Check if red has won
-    if (red == 8) {shinyalert("Congratulations!", "the red team has won the game", type = "info")}
+    if (red == 8) {shinyalert("Congratulations!", "The red team has won the game", type = "info")}
     # Check if black is clicked
     if (black == 1) {shinyalert("Oh no!", "You've chosen the assassin word!", type = "info")}
     js = paste0('document.getElementById(\"action9\").style.backgroundColor = \"', colors[assignments[9]],'\";')
@@ -258,9 +258,9 @@ function(input, output, session) {
     # Update counters
     if (colors[assignments[10]] == '#1E90FF') {blue<<-blue + 1} else if (colors[assignments[10]] == '#B22222') {red<<-red + 1} else if (colors[assignments[10]] == '#333333') {black<<-1}
     # Check if blue has won
-    if (blue == 9) {shinyalert("Congratulations!", "the blue team has won the game", type = "info")}
+    if (blue == 9) {shinyalert("Congratulations!", "The blue team has won the game", type = "info")}
     # Check if red has won
-    if (red == 8) {shinyalert("Congratulations!", "the red team has won the game", type = "info")}
+    if (red == 8) {shinyalert("Congratulations!", "The red team has won the game", type = "info")}
     # Check if black is clicked
     if (black == 1) {shinyalert("Oh no!", "You've chosen the assassin word!", type = "info")}
     js = paste0('document.getElementById(\"action10\").style.backgroundColor = \"', colors[assignments[10]],'\";')
@@ -270,9 +270,9 @@ function(input, output, session) {
     # Update counters
     if (colors[assignments[11]] == '#1E90FF') {blue<<-blue + 1} else if (colors[assignments[11]] == '#B22222') {red<<-red + 1} else if (colors[assignments[11]] == '#333333') {black<<-1}
     # Check if blue has won
-    if (blue == 9) {shinyalert("Congratulations!", "the blue team has won the game", type = "info")}
+    if (blue == 9) {shinyalert("Congratulations!", "The blue team has won the game", type = "info")}
     # Check if red has won
-    if (red == 8) {shinyalert("Congratulations!", "the red team has won the game", type = "info")}
+    if (red == 8) {shinyalert("Congratulations!", "The red team has won the game", type = "info")}
     # Check if black is clicked
     if (black == 1) {shinyalert("Oh no!", "You've chosen the assassin word!", type = "info")}
     js = paste0('document.getElementById(\"action11\").style.backgroundColor = \"', colors[assignments[11]],'\";')
@@ -282,9 +282,9 @@ function(input, output, session) {
     # Update counters
     if (colors[assignments[12]] == '#1E90FF') {blue<<-blue + 1} else if (colors[assignments[12]] == '#B22222') {red<<-red + 1} else if (colors[assignments[12]] == '#333333') {black<<-1}
     # Check if blue has won
-    if (blue == 9) {shinyalert("Congratulations!", "the blue team has won the game", type = "info")}
+    if (blue == 9) {shinyalert("Congratulations!", "The blue team has won the game", type = "info")}
     # Check if red has won
-    if (red == 8) {shinyalert("Congratulations!", "the red team has won the game", type = "info")}
+    if (red == 8) {shinyalert("Congratulations!", "The red team has won the game", type = "info")}
     # Check if black is clicked
     if (black == 1) {shinyalert("Oh no!", "You've chosen the assassin word!", type = "info")}
     js = paste0('document.getElementById(\"action12\").style.backgroundColor = \"', colors[assignments[12]],'\";')
@@ -294,9 +294,9 @@ function(input, output, session) {
     # Update counters
     if (colors[assignments[13]] == '#1E90FF') {blue<<-blue + 1} else if (colors[assignments[13]] == '#B22222') {red<<-red + 1} else if (colors[assignments[13]] == '#333333') {black<<-1}
     # Check if blue has won
-    if (blue == 9) {shinyalert("Congratulations!", "the blue team has won the game", type = "info")}
+    if (blue == 9) {shinyalert("Congratulations!", "The blue team has won the game", type = "info")}
     # Check if red has won
-    if (red == 8) {shinyalert("Congratulations!", "the red team has won the game", type = "info")}
+    if (red == 8) {shinyalert("Congratulations!", "The red team has won the game", type = "info")}
     # Check if black is clicked
     if (black == 1) {shinyalert("Oh no!", "You've chosen the assassin word!", type = "info")}
     js = paste0('document.getElementById(\"action13\").style.backgroundColor = \"', colors[assignments[13]],'\";')
@@ -306,9 +306,9 @@ function(input, output, session) {
     # Update counters
     if (colors[assignments[14]] == '#1E90FF') {blue<<-blue + 1} else if (colors[assignments[14]] == '#B22222') {red<<-red + 1} else if (colors[assignments[14]] == '#333333') {black<<-1}
     # Check if blue has won
-    if (blue == 9) {shinyalert("Congratulations!", "the blue team has won the game", type = "info")}
+    if (blue == 9) {shinyalert("Congratulations!", "The blue team has won the game", type = "info")}
     # Check if red has won
-    if (red == 8) {shinyalert("Congratulations!", "the red team has won the game", type = "info")}
+    if (red == 8) {shinyalert("Congratulations!", "The red team has won the game", type = "info")}
     # Check if black is clicked
     if (black == 1) {shinyalert("Oh no!", "You've chosen the assassin word!", type = "info")}
     js = paste0('document.getElementById(\"action14\").style.backgroundColor = \"', colors[assignments[14]],'\";')
@@ -318,9 +318,9 @@ function(input, output, session) {
     # Update counters
     if (colors[assignments[15]] == '#1E90FF') {blue<<-blue + 1} else if (colors[assignments[15]] == '#B22222') {red<<-red + 1} else if (colors[assignments[15]] == '#333333') {black<<-1}
     # Check if blue has won
-    if (blue == 9) {shinyalert("Congratulations!", "the blue team has won the game", type = "info")}
+    if (blue == 9) {shinyalert("Congratulations!", "The blue team has won the game", type = "info")}
     # Check if red has won
-    if (red == 8) {shinyalert("Congratulations!", "the red team has won the game", type = "info")}
+    if (red == 8) {shinyalert("Congratulations!", "The red team has won the game", type = "info")}
     # Check if black is clicked
     if (black == 1) {shinyalert("Oh no!", "You've chosen the assassin word!", type = "info")}
     js = paste0('document.getElementById(\"action15\").style.backgroundColor = \"', colors[assignments[15]],'\";')
@@ -330,9 +330,9 @@ function(input, output, session) {
     # Update counters
     if (colors[assignments[16]] == '#1E90FF') {blue<<-blue + 1} else if (colors[assignments[16]] == '#B22222') {red<<-red + 1} else if (colors[assignments[16]] == '#333333') {black<<-1}
     # Check if blue has won
-    if (blue == 9) {shinyalert("Congratulations!", "the blue team has won the game", type = "info")}
+    if (blue == 9) {shinyalert("Congratulations!", "The blue team has won the game", type = "info")}
     # Check if red has won
-    if (red == 8) {shinyalert("Congratulations!", "the red team has won the game", type = "info")}
+    if (red == 8) {shinyalert("Congratulations!", "The red team has won the game", type = "info")}
     # Check if black is clicked
     if (black == 1) {shinyalert("Oh no!", "You've chosen the assassin word!", type = "info")}
     js = paste0('document.getElementById(\"action16\").style.backgroundColor = \"', colors[assignments[16]],'\";')
@@ -342,9 +342,9 @@ function(input, output, session) {
     # Update counters
     if (colors[assignments[17]] == '#1E90FF') {blue<<-blue + 1} else if (colors[assignments[17]] == '#B22222') {red<<-red + 1} else if (colors[assignments[17]] == '#333333') {black<<-1}
     # Check if blue has won
-    if (blue == 9) {shinyalert("Congratulations!", "the blue team has won the game", type = "info")}
+    if (blue == 9) {shinyalert("Congratulations!", "The blue team has won the game", type = "info")}
     # Check if red has won
-    if (red == 8) {shinyalert("Congratulations!", "the red team has won the game", type = "info")}
+    if (red == 8) {shinyalert("Congratulations!", "The red team has won the game", type = "info")}
     # Check if black is clicked
     if (black == 1) {shinyalert("Oh no!", "You've chosen the assassin word!", type = "info")}
     js = paste0('document.getElementById(\"action17\").style.backgroundColor = \"', colors[assignments[17]],'\";')
@@ -354,9 +354,9 @@ function(input, output, session) {
     # Update counters
     if (colors[assignments[18]] == '#1E90FF') {blue<<-blue + 1} else if (colors[assignments[18]] == '#B22222') {red<<-red + 1} else if (colors[assignments[18]] == '#333333') {black<<-1}
     # Check if blue has won
-    if (blue == 9) {shinyalert("Congratulations!", "the blue team has won the game", type = "info")}
+    if (blue == 9) {shinyalert("Congratulations!", "The blue team has won the game", type = "info")}
     # Check if red has won
-    if (red == 8) {shinyalert("Congratulations!", "the red team has won the game", type = "info")}
+    if (red == 8) {shinyalert("Congratulations!", "The red team has won the game", type = "info")}
     # Check if black is clicked
     if (black == 1) {shinyalert("Oh no!", "You've chosen the assassin word!", type = "info")}
     js = paste0('document.getElementById(\"action18\").style.backgroundColor = \"', colors[assignments[18]],'\";')
@@ -366,9 +366,9 @@ function(input, output, session) {
     # Update counters
     if (colors[assignments[19]] == '#1E90FF') {blue<<-blue + 1} else if (colors[assignments[19]] == '#B22222') {red<<-red + 1} else if (colors[assignments[19]] == '#333333') {black<<-1}
     # Check if blue has won
-    if (blue == 9) {shinyalert("Congratulations!", "the blue team has won the game", type = "info")}
+    if (blue == 9) {shinyalert("Congratulations!", "The blue team has won the game", type = "info")}
     # Check if red has won
-    if (red == 8) {shinyalert("Congratulations!", "the red team has won the game", type = "info")}
+    if (red == 8) {shinyalert("Congratulations!", "The red team has won the game", type = "info")}
     # Check if black is clicked
     if (black == 1) {shinyalert("Oh no!", "You've chosen the assassin word!", type = "info")}
     js = paste0('document.getElementById(\"action19\").style.backgroundColor = \"', colors[assignments[19]],'\";')
@@ -378,9 +378,9 @@ function(input, output, session) {
     # Update counters
     if (colors[assignments[20]] == '#1E90FF') {blue<<-blue + 1} else if (colors[assignments[20]] == '#B22222') {red<<-red + 1} else if (colors[assignments[20]] == '#333333') {black<<-1}
     # Check if blue has won
-    if (blue == 9) {shinyalert("Congratulations!", "the blue team has won the game", type = "info")}
+    if (blue == 9) {shinyalert("Congratulations!", "The blue team has won the game", type = "info")}
     # Check if red has won
-    if (red == 8) {shinyalert("Congratulations!", "the red team has won the game", type = "info")}
+    if (red == 8) {shinyalert("Congratulations!", "The red team has won the game", type = "info")}
     # Check if black is clicked
     if (black == 1) {shinyalert("Oh no!", "You've chosen the assassin word!", type = "info")}
     js = paste0('document.getElementById(\"action20\").style.backgroundColor = \"', colors[assignments[20]],'\";')
@@ -390,9 +390,9 @@ function(input, output, session) {
     # Update counters
     if (colors[assignments[21]] == '#1E90FF') {blue<<-blue + 1} else if (colors[assignments[21]] == '#B22222') {red<<-red + 1} else if (colors[assignments[21]] == '#333333') {black<<-1}
     # Check if blue has won
-    if (blue == 9) {shinyalert("Congratulations!", "the blue team has won the game", type = "info")}
+    if (blue == 9) {shinyalert("Congratulations!", "The blue team has won the game", type = "info")}
     # Check if red has won
-    if (red == 8) {shinyalert("Congratulations!", "the red team has won the game", type = "info")}
+    if (red == 8) {shinyalert("Congratulations!", "The red team has won the game", type = "info")}
     # Check if black is clicked
     if (black == 1) {shinyalert("Oh no!", "You've chosen the assassin word!", type = "info")}
     js = paste0('document.getElementById(\"action21\").style.backgroundColor = \"', colors[assignments[21]],'\";')
@@ -402,9 +402,9 @@ function(input, output, session) {
     # Update counters
     if (colors[assignments[22]] == '#1E90FF') {blue<<-blue + 1} else if (colors[assignments[22]] == '#B22222') {red<<-red + 1} else if (colors[assignments[22]] == '#333333') {black<<-1}
     # Check if blue has won
-    if (blue == 9) {shinyalert("Congratulations!", "the blue team has won the game", type = "info")}
+    if (blue == 9) {shinyalert("Congratulations!", "The blue team has won the game", type = "info")}
     # Check if red has won
-    if (red == 8) {shinyalert("Congratulations!", "the red team has won the game", type = "info")}
+    if (red == 8) {shinyalert("Congratulations!", "The red team has won the game", type = "info")}
     # Check if black is clicked
     if (black == 1) {shinyalert("Oh no!", "You've chosen the assassin word!", type = "info")}
     js = paste0('document.getElementById(\"action22\").style.backgroundColor = \"', colors[assignments[22]],'\";')
@@ -414,9 +414,9 @@ function(input, output, session) {
     # Update counters
     if (colors[assignments[23]] == '#1E90FF') {blue<<-blue + 1} else if (colors[assignments[23]] == '#B22222') {red<<-red + 1} else if (colors[assignments[23]] == '#333333') {black<<-1}
     # Check if blue has won
-    if (blue == 9) {shinyalert("Congratulations!", "the blue team has won the game", type = "info")}
+    if (blue == 9) {shinyalert("Congratulations!", "The blue team has won the game", type = "info")}
     # Check if red has won
-    if (red == 8) {shinyalert("Congratulations!", "the red team has won the game", type = "info")}
+    if (red == 8) {shinyalert("Congratulations!", "The red team has won the game", type = "info")}
     # Check if black is clicked
     if (black == 1) {shinyalert("Oh no!", "You've chosen the assassin word!", type = "info")}
     js = paste0('document.getElementById(\"action23\").style.backgroundColor = \"', colors[assignments[23]],'\";')
@@ -426,9 +426,9 @@ function(input, output, session) {
     # Update counters
     if (colors[assignments[24]] == '#1E90FF') {blue<<-blue + 1} else if (colors[assignments[24]] == '#B22222') {red<<-red + 1} else if (colors[assignments[24]] == '#333333') {black<<-1}
     # Check if blue has won
-    if (blue == 9) {shinyalert("Congratulations!", "the blue team has won the game", type = "info")}
+    if (blue == 9) {shinyalert("Congratulations!", "The blue team has won the game", type = "info")}
     # Check if red has won
-    if (red == 8) {shinyalert("Congratulations!", "the red team has won the game", type = "info")}
+    if (red == 8) {shinyalert("Congratulations!", "The red team has won the game", type = "info")}
     # Check if black is clicked
     if (black == 1) {shinyalert("Oh no!", "You've chosen the assassin word!", type = "info")}
     js = paste0('document.getElementById(\"action24\").style.backgroundColor = \"', colors[assignments[24]],'\";')
@@ -438,9 +438,9 @@ function(input, output, session) {
     # Update counters
     if (colors[assignments[25]] == '#1E90FF') {blue<<-blue + 1} else if (colors[assignments[25]] == '#B22222') {red<<-red + 1} else if (colors[assignments[25]] == '#333333') {black<<-1}
     # Check if blue has won
-    if (blue == 9) {shinyalert("Congratulations!", "the blue team has won the game", type = "info")}
+    if (blue == 9) {shinyalert("Congratulations!", "The blue team has won the game", type = "info")}
     # Check if red has won
-    if (red == 8) {shinyalert("Congratulations!", "the blue team has won the game", type = "info")}
+    if (red == 8) {shinyalert("Congratulations!", "The blue team has won the game", type = "info")}
     # Check if black is clicked
     if (black == 1) {shinyalert("Oh no!", "You've chosen the assassin word!", type = "info")}
     js = paste0('document.getElementById(\"action25\").style.backgroundColor = \"', colors[assignments[25]],'\";')
